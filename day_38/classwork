@@ -1,0 +1,45 @@
+# List of favorite movies
+favorite_movies = [
+    "The Shawshank Redemption",
+    "The Godfather",
+    "Pulp Fiction",
+    "The Dark Knight",
+    "Fight Club",
+    "Inception",
+    "The Matrix",
+    "Goodfellas",
+    "Seven",
+    "Interstellar"
+]
+
+# Print favorite movies separately
+for movie in favorite_movies:
+    print(movie)
+
+# List of family members' names
+family_members = [
+    "eto",
+    "shako",
+    "gurami",
+    "mediko",
+    "andria",
+ 
+]
+
+# Print family members' names in a long sentence
+family_sentence = "My name is {your name}. My mother's name is {mother's name}. My father's name is {father's name}."
+for name in family_members:
+    print(family_sentence.format(your_name=name, mother_name="Mother's Name", father_name="Father's Name"))
+
+# List of friend's names
+friend_names = [
+     "gabrieli",
+      "mate",
+    "qeti",
+    "dato",
+    "andria",
+]
+
+# Print friend's names separately
+for friend in friend_names:
+    print(friend)
