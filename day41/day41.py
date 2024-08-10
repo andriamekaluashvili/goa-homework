@@ -4,7 +4,8 @@
 
 number_list = input("enter the list of the numbers:")
 
-numbers = [int(num) for num in number_list] 
+numbers = [
+     for num in number_list] 
 
 sum = 0
 
