@@ -1,7 +1,7 @@
-def check_number(number):
-    if number > 10:
-        return "მაგარია!"
-    result = check_number(15)
- else:   
-    
-    print(result)
+def უმცირესი():
+    question1 =int(input("please enter number:  "))
+    question0 =int(input("please enter number:  "))
+    if question0 < question1:
+        return(question0)
+    elif question1 < question0:
+        return (question1)

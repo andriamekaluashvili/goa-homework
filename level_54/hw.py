@@ -1,4 +1,5 @@
-def add_one(number):
-    return number + 1
-result = add_one(5)
-print(result)
+def plus_one():
+    number = 0
+    question = int(input("please enter number:  "))
+    number = number + question + 1
+    return number
