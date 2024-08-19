@@ -1,7 +1,4 @@
-def calculate_text_length():
-    text = input("Enter a text: ")
-    length = len(text)
-    return length
-
-result = calculate_text_length()
-print("The length of the text is:", result)
+def sum():
+    question0 int(input("please enter numbe:  "))
+    question1 int(input("please enter numbe:  "))
+    return(question0 + question1)
