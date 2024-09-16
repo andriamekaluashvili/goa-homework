@@ -1,1 +1,100 @@
-gavakete yvelaferi
+/* 
+  In CSS, style inheritance refers to the process by which an element inherits styles from its parent or ancestor elements.
+  This is achieved through the use of descendant selectors, which allow us to target elements based on their relationship with other elements.
+  
+  For example, if we want to style all paragraph elements within a div element, we can use the following descendant selector:
+  div p {
+    color: blue;
+  }
+  
+  This will apply the style to all paragraph elements that are descendants of a div element.
+  
+  We can also use ID and class selectors to target specific elements and apply styles to them.
+  ID selectors are used to target a single element with a unique ID, while class selectors are used to target multiple elements with the same class.
+  
+  For example:
+  #header {
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  In this example, the #header ID selector targets a single element with the ID "header", while the .container class selector targets multiple elements with the class "container".
+  
+  By combining these selectors, we can create complex styles and layouts for our website.
+*/<!DOCTYPE html>
+<html>
+<head>
+  <title>Space Exploration</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <h1>Space Exploration</h1>
+  </header>
+  <div class="container">
+    <h2>Mission Control</h2>
+    <p>This is a paragraph about space exploration.</p>
+    <img src="space.jpg" alt="Space Image">
+    <ul>
+      <li>Mars</li>
+      <li>Jupiter</li>
+      <li>Saturn</li>
+    </ul>
+  </div>
+</body>
+</html>/* 
+Let's add some styles to our website using descendant selectors, ID, and class.
+*/
+
+body {
+background-image: url("space_background.jpg");
+background-size: cover;
+}
+
+#header {
+background-color: #f2f2f2;
+padding: 20px;
+text-align: center;
+}
+
+.container {
+background-color: rgba(255, 255, 255, 0.5);
+padding: 20px;
+border-radius: 10px;
+}
+
+.container h2 {
+color: #333;
+font-size: 24px;
+}
+
+.container p {
+font-size: 18px;
+color: #666;
+}
+
+.container img {
+width: 300px;
+height: 200px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.container ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.container li {
+padding: 10px;
+border-bottom: 1px solid #fff;
+}
+
+.container li:hover {
+background-color: #fff;
+color: #333;
+}
